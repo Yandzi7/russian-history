@@ -60,6 +60,7 @@ export interface TermDefinition {
   id: string;
   term: string;
   century: string;
+  exactDate?: string;
   definition: string;
   facts: string; // для задания 19 ЕГЭ
 }
